@@ -1,0 +1,41 @@
+body {
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Header-left {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8; 
+}
+
+.Header-right {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.Main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.Sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
